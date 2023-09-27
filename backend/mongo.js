@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/student');
+mongoose.connect('mongodb+srv://rumitsavaliya05:rumit%40515@cluster0.ijcmcxa.mongodb.net/student');
 
 const studentSchema = new mongoose.Schema({
     firstName: String,
